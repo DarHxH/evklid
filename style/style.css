@@ -1,0 +1,40 @@
+@import url(./header.css);
+@import url(/style/main.css);
+@import url(./footer.css);
+@import url(./dextop.css);
+@import url(./ipad.css);
+@import url(./mobile.css);
+
+
+
+
+
+ :root {
+            --primary-color: #2E5BFF;
+            --secondary-color: #7E7E7E;
+            --accent-color: #FF9900;
+            --light-bg: #F5F7FF;
+            --dark-text: #1A1A1A;
+            --light-text: #FFFFFF;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            --border-radius: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: var(--dark-text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }

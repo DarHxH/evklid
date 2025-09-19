@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__nav">
+            <div class="logo-container">
+                <img class="logo__header" src="./img/logo__header.png" alt="Логотип Евклид">
+                <div class="logo__name-description">
+                    <p class="header__logo-name">Евклид</p>
+                    <p class="header__logo-description">Проектные системы</p>
+                </div>
+            </div>
+
+            <ul class="header__list">
+                <li class="header__list-item"><a class="header__link" href="#">О нас</a></li>
+                <li class="header__list-item"><a class="header__link" href="#">Этапы</a></li>
+                <li class="header__list-item"><a class="header__link" href="#">Вопросы</a></li>
+                <li class="header__list-item"><a class="header__link" href="#">Оставить заявку</a></li>
+                <li class="header__list-item">
+                    <a class="header__link" href="#">
+                        <img class="search__header" src="./img/search.svg" alt="Поиск">
+                    </a>
+                </li>
+            </ul>
+
+            <div class="mobile-menu-container">
+                <div class="hamburger" id="hamburger">
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                    <div class="hamburger-line"></div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="side-menu" id="sideMenu">
+            <ul>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Этапы</a></li>
+                <li><a href="#">Вопросы</a></li>
+                <li><a href="#">Оставить заявку</a></li>
+            </ul>
+        </nav>
+
+        <div class="overlay" id="overlay"></div>
+    </header>
+
+    <main>
+        <div class="main__block-one">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="slider__img" src="./img/slide__1.png" alt="Слайд 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/slide__2.png" alt="Слайд 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/slide__3.png" alt="Слайд 3">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="main__block__text">
+                <p class="main__block__hero">Проектные решения любой сложности</p>
+                <p class="main__block__hero-title">Есть над чем задуматься: базовые сценарии поведения пользователей и
+                    по сей день остаются уделом проектантов</p>
+                <button class="main__btn">Заказать расчёт</button>
+            </div>
+        </div>
+    </main>
+<script src="./script.js"></script>
+
+</html>

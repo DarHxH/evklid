@@ -1,0 +1,83 @@
+ /* Для мобильных устройств (480px и меньше) */
+        @media (max-width: 480px) {
+            .header {
+                min-height: 60px;
+                border-bottom-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+            }
+
+            .logo__header {
+                width: 32px;
+            }
+
+            .header__logo-name {
+                font-size: 1.1rem;
+                color: rgb(0, 0, 0);
+            }
+
+            .header__logo-description {
+                display: none;
+            }
+
+            .hamburger {
+                width: 45px;
+                height: 45px;
+            }
+
+            .side-menu {
+                width: 250px;
+                padding: 90px 20px 20px;
+            }
+
+            .main__block-one {
+                height: 400px;
+                margin-top: 5vw;
+            }
+
+            .main__block__hero {
+                font-size: 1.8rem;
+            }
+
+            .main__block__hero-title {
+                font-size: 0.9rem;
+                margin-bottom: 25px;
+            }
+
+            .main__btn {
+                width: 220px;
+                padding: 14px 25px;
+            }
+        }
+
+        /* Для очень маленьких устройств (360px и меньше) */
+        @media (max-width: 360px) {
+            .header__nav {
+                padding: 0 10px;
+            }
+
+            .header__logo-name {
+                font-size: 1rem;
+            }
+
+            .main__block-one {
+                height: 350px;
+            }
+
+            .main__block__hero {
+                font-size: 1.5rem;
+            }
+
+            .main__block__hero-title {
+                font-size: 0.85rem;
+            }
+
+            .main__btn {
+                width: 200px;
+                padding: 12px 20px;
+                font-size: 0.9rem;
+            }
+
+            .side-menu {
+                width: 220px;
+            }
+        }

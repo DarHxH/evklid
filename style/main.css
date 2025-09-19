@@ -1,0 +1,44 @@
+ .main__block__text {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            transform: translateY(-50%);
+            max-width: 600px;
+            z-index: 10;
+            color: var(--light-text);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .main__block__hero {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+
+        .main__block__hero-title {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            line-height: 1.5;
+            max-width: 500px;
+        }
+
+        .main__btn {
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 20px 35px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(255, 153, 0, 0.3);
+        }
+
+        .main__btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(255, 153, 0, 0.4);
+        }
+
+ 
