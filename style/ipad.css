@@ -1,5 +1,4 @@
- /* Media Queries */
-        /* Для планшетов (1024px и меньше) - появляется бургер */
+
         @media (max-width: 1024px) {
             .header__list {
                 display: none;
@@ -23,7 +22,7 @@
             }
         }
 
-        /* Для планшетов (768px и меньше) */
+  
         @media (max-width: 768px) {
             .header {
                 min-height: 70px;
