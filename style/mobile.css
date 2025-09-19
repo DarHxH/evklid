@@ -1,4 +1,4 @@
- /* Для мобильных устройств (480px и меньше) */
+
         @media (max-width: 480px) {
             .header {
                 min-height: 60px;
@@ -49,7 +49,7 @@
             }
         }
 
-        /* Для очень маленьких устройств (360px и меньше) */
+ 
         @media (max-width: 360px) {
             .header__nav {
                 padding: 0 10px;
